@@ -3,7 +3,8 @@
 示例:
 
 /// 点击事件
-    cell.addToShoppingCar = ^(UIImageView *imageView){
+   
+cell.addToShoppingCar = ^(UIImageView *imageView){
         
         UICollectionViewCell * wCell = (UICollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
         CGRect rect = wCell.frame;
